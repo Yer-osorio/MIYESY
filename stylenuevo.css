@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    min-width: 350px;
+}
+
+img{
+    width: 100%;
+    max-height: 110%;
+} 
+
+.centrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#logo{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    display: none;
+}
+
+.cajanav:hover {
+    font-size: 20px;
+    background-color: rgb(163, 113, 192);
+    border-radius: 50%;
+    transition: font-size 1s, background 2s, border-radius 1s; 
+}
+
+
+.cajanav{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+
+.a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+.cajanava{
+    width: 125px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+  #flex1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./wallhaven-nzdm8w.jpg);
+}
+
+.h1-1{
+    font-size: 70px;
+    color: #ffffff;
+}
+
+
+
+.caja1{
+    background-color: #ffffff;
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(23, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    color: black;
+    font-weight: bold;
+}
+
+
+.caja4{
+    background-color: rgb(73, 72, 71);
+    height: 480px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(23, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+}
+
+
+.caja3{
+    background-color: #ffffff;
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(23, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+}
+
+.cajaimagen1{
+    grid-column: 17/22;
+    grid-row: 4/14;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cajaimagen3{
+    grid-column: 17/22;
+    grid-row: 4/14;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Parrafo1{
+    grid-column: 3/15;
+    grid-row: 7/13;
+    font-size: 18px;
+}
+
+.Title1{
+    grid-column: 3/13;
+    grid-row: 4/7;
+    font-size: 40px;
+}
+
+.caja2{
+    background-color: rgb(73, 72, 71);
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(23, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+}
+
+.cajaimagen2{
+    grid-column: 3/8;
+    grid-row: 4/14;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Parrafo2{
+    grid-column: 9/22;
+    grid-row: 8/13;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.Title2{
+    grid-column: 9/15;
+    grid-row: 5/7;
+    font-size: 40px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+
+  .footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cajafooter{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.iconos{
+    border-top: 3px solid white;
+    margin-top: 10px ;
+    width: 120px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.img{
+    width: 30px;
+    height: 30px;
+}
+
+.img:hover {
+    height: 40px;
+    width: 40px;
+    transition: width 1s, height 1s; 
+}
+
+.escrito{
+    list-style: none;
+    color: #ffffff;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.escrito2{
+    list-style: none;
+    color: #ffffff;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.linea{
+    width: 100%;
+    height: 40px;
+    background-color: #4b4848;
+}
+
+@media only screen and (max-width: 800px){
+
+    .menu{
+        display: block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+
+    .Navegador{
+        display: none;
+    }
+
+    #flex1{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./wallhaven-nzdm8w.jpg);
+    }
+
+    span{
+        width: 50px;
+    }
+    
+    img{
+        width: 100%;
+        max-height: 200%;
+    } 
+
+   
+
+    .caja1{
+        background-color: #ffffff;
+        height: 700px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(23, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+    }
+    
+    .caja3{
+        background-color: #ffffff;
+        height: 1000px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(23, 1fr);
+        grid-template-rows: repeat(15, 1fr);
+    }
+    
+    .cajaimagen3{
+        grid-column: 9/15;
+        grid-row: 11/13;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .cajaimagen1{
+        grid-column: 9/15;
+        grid-row: 12/15;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .Parrafo1{
+        grid-column: 5/20;
+        grid-row: 4/8;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .Title1{
+        grid-column: 1/24;
+        grid-row: 2/4;
+        font-size: 40px;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .caja2{
+        background-color: rgb(73, 72, 71);
+        height: 700px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(23, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+    }
+
+    .caja4{
+        background-color: rgb(73, 72, 71);
+        height: 800px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(23, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+    }
+    
+    .cajaimagen2{
+        grid-column: 9/15;
+        grid-row: 12/15;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .Parrafo2{
+        grid-column: 5/20;
+        grid-row: 4/8;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .Title2{
+        grid-column: 1/24;
+        grid-row: 2/4;
+        font-size: 40px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .h1{
+        font-size: 40px;
+        color: #ffffff;
+    }
+
+    .footer{
+        width: 100%;
+        height: 300px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cajafooter{
+        margin-top: 30px;
+        width: 100%;
+        height: 300px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-size: 30px;
+    }
+    
+    .iconos{
+        border-top: 3px solid white;
+        margin-top: 10px ;
+        width: 120px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .escrito{
+        display: none;
+        margin-top: 30px;
+    }
+    
+    .escrito2{
+        list-style: none;
+        color: #ffffff;
+        width: 100%;
+        height: 300px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: -20px;
+    }
+
+    .img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .img:hover {
+        height: 40px;
+        width: 40px;
+        transition: width 1s, height 1s; 
+    }
+    
+
+}
+
+@media only screen and (max-width: 550px){
+    .cajaimagen3{
+        grid-column: 8/15;
+        grid-row: 12/17;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    
+    .cajaimagen1{
+        grid-column: 8/15;
+        grid-row: 14/18;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .cajaimagen2{
+        grid-column: 8/15;
+        grid-row: 14/18;
+        display: flex;
+        align-items: flex-start;
+    }
+}
